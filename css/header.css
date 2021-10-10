@@ -1,0 +1,190 @@
+.header-banner {
+  width: 100%;
+  position: relative;
+}
+.header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.header-nav .header-left {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-nav .header-left .logo {
+  width: 90px;
+}
+.header-right nav {
+  height: 100%;
+}
+.header-right nav .nav-item {
+  display: flex;
+  padding: 55px 25px 25px 25px;
+  height: 100px;
+  color: black;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header-right ul{
+  margin: 0;
+  padding: 0;
+}
+.header-right ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.header-right ul li a{
+  display: inline-block;
+  padding: 55px 24px 25px 24px;
+  color: #000;
+  font-size: 15px;
+}
+
+.header-right ul li.active a{
+  background: #1D4116;
+  color: #fff;
+  font-weight: 600;
+}
+
+.carousel-caption {
+  margin-bottom: 15%;
+}
+.carousel-caption .caption {
+  font-family: 'Open Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+.carousel-caption .caption-ver2 {
+  font-family: 'Open Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+.header-banner img{
+  object-fit: cover;
+}
+
+.mobile-menu .click span {
+  display: block;
+  height: 2px;
+  width: 30px;
+  background: #fff;
+  margin-bottom: 6px;
+  transition: all .3s;
+}
+
+.mobile-menu .click {
+  display: inline-block;
+  margin-top: 13px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel-caption {
+    margin-bottom: 10%;
+  }
+  .header-banner img{
+    min-height: 280px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-nav {
+    flex-direction: column;
+  }
+  .header-banner img{
+    min-height: 280px;
+  }
+  .carousel-caption {
+    display: none !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-right nav .nav-item {
+    font-size: 13px;
+  }
+  .header-nav {
+    flex-direction: column;
+  }
+  .header-banner {
+    width: 100%;
+    position: relative;
+  }
+  .header-banner img{
+    min-height: 280px;
+  }
+  .carousel-caption {
+    display: none !important;
+  }
+}
+.mobile-menu{
+  display: none;
+}
+@media(max-width: 767px){
+  .header-right{
+    position: fixed;
+    width: 70%;
+    background: #fff;
+    height: 100vh;
+    z-index: 99;
+    left: -70%;
+    opacity: 0;
+    transition: all .3s;
+    border-right: 1px solid #ededed;
+  }
+  .header-right.active-mobile{
+    opacity: 1;
+    left: 0;
+    transition: all .3s;
+  }
+  .header-right ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .header-right ul li a {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+  }
+  #carouselControlNews .card{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mobile-menu{
+    display: block;
+    transition: all .3s;
+    text-align: right;
+  }
+  .mobile-menu .click.active  span.line1 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 7px;
+    transition: all .3s;
+  }
+
+  .mobile-menu .click.active span.line3 {
+    transform: rotate(-45deg);
+    position: relative;
+    transition: all .3s;
+    top: -9px;
+  }
+
+  .mobile-menu .click.active span.line2 {
+    opacity: 0;
+    transition: all .3s;
+  }
+}

@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Garamond Premier Pro";
+  src: url("../fonts/GaramondPremrPro/GaramondPremrPro.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+html {
+  margin: 0;
+  font-family: "Open-Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* text  */
+a {
+  text-decoration: none;
+  outline: none;
+  color: #1d4116;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+a:hover{
+  text-decoration: none;
+  outline: none;
+  color: #1d4116;
+}
+h2 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #1d4116;
+}
+h3 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #1d4116;
+}
+h4 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1d4116;
+}
+h5 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1d4116;
+}
+h6 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #34495e;
+}
+.color-primary {
+  color: #1d4116;
+}
+.btn {
+  border-radius: 0;
+}
+.bg-primary {
+  background-color: #1d4116 !important;
+}
+.bg-blue {
+  background: #0084ff;
+}
+.bg-orange {
+  background: #ffa103;
+}
+.bg-yellow {
+  background: #ffdd00;
+}
+.bg-brown {
+  background: #46392c;
+}
+.bg-black {
+  background: #231f20;
+}
+.bg-white {
+  background: #231f20;
+}
+.bg-light-blue {
+  background: #e2e9e3;
+}
+.ml-100 {
+  margin-left: 100;
+}
+.mr-100 {
+  margin-right: 100;
+}
+.w-35 {
+  width: 35% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+/* media icons fixed */
+.media-icons {
+  right:24;
+  bottom: 50;
+  z-index: 1000;
+}
+.media-icons a {
+  margin-top: 8;
+  width: 60;
+  height: 60;
+}
+
+.part {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50 0;
+}
+
+.title-ver2 {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1d4116;
+}
+.slogan {
+  font-family: "Garamond Premier Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #34495e;
+}

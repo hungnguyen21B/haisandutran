@@ -1,0 +1,88 @@
+@import url("reset.css");
+.footer {
+  width: 100%;
+  background-color: #1d4116;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer .footer-info,
+.footer-nav {
+  margin-bottom: 2 0px;
+}
+.footer-info div img {
+  width: 16px;
+  margin-top: 10;
+}
+.footer .txt-info {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: -10;
+}
+.footer h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer .col {
+  padding-left: 0;
+}
+.channel {
+  margin-top: 24;
+}
+.channel a {
+  margin-left: 16;
+}
+.channel a img {
+  width: 24px;
+}
+.channel {
+  display: flex;
+}
+.copy-right {
+  text-align: center;
+  font-size: 13px;
+  padding: 20px 0!important;
+}
+.footer .line {
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: 1px solid #749dab;
+  margin-bottom: 0;
+}
+.footer-logo {
+  width: 85px;
+  margin-top: 34px;
+  margin-bottom: 29px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .footer iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer iframe {
+    width: 240px;
+    height: 200px;
+  }
+  .channel a {
+    margin-left: 10;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer iframe {
+    width: 220px;
+    height: 140px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer iframe {
+    width: 220px;
+    height: 140px;
+  }
+ 
+}
